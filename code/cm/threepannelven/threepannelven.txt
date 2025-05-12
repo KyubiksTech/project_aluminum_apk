@@ -1,0 +1,26 @@
+Breadth: 182
+Height: 147
+
+Height 11b Plate =  178.2
+
+11b Plate =  22.4
+13b Plate =  22.4
+
+
+Six-Seven Out =  116.0
+Seven-Six In  =  117.0
+
+Five Number =  52.5
+
+Center Size =  59.4
+
+
+Glass Size Ventilation 56.56666666666666 X 22.099999999999998
+
+
+Glass Size Seven Number In =  108.5 X 52.2
+Glass Size Six Number Out =  107.5 X 52.2
+
+Glass Center Size =  50.9 X 59.1
+_____________________________________________________________
+Jali Size Nine Number =  114.5 X 60.8
