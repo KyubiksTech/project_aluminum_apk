@@ -1,0 +1,21 @@
+
+Height: 147
+Breadth: 182
+
+
+One Number =  178.2
+
+6-7 Number Out =  142.0
+
+7-6 Number In =  141.0
+
+Five Number =  83.35
+
+
+Glass In=  133.5 X 83.05
+Glass Out =  132.5 X 83.05
+
+
+Jali Size Nine Number =  139.5 X 91.64999999999999
+All Calculatin Check Result =  182.1
+computer calculation is correct
