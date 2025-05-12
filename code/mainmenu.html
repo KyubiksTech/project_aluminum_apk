@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons with Frame</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffff;
+            font-family: Arial, sans-serif;
+        }
+
+        .frame-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 250px; /* Fixed square frame size */
+            height: 250px; /* Fixed square frame size */
+            border: 5px solid black; /* Black square border */
+            border-radius: 10px; /* Rounded corners for the frame */
+            padding: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #000; /* Black background */
+            color: white; /* White text */
+            width: 150px; /* Fixed width */
+            height: 50px; /* Fixed height */
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #333; /* Slightly lighter black on hover */
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame-container">
+        <div class="button-container">
+            <a href="cm/ninetywindow/ninety.html"><button class="button">CM</button></a>
+            <a href="mm/ninetywindow/ninety.html"><button class="button">MM</button></a>
+        </div>
+    </div>
+</body>
+</html>
