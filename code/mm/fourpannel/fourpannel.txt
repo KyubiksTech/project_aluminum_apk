@@ -1,0 +1,16 @@
+height = 182
+length = 147
+
+One-Two Number =  178.2
+
+Seven-Six In  =  141.0
+
+Six-Seven Out =  142.0
+
+Five Number =  38.75
+
+Glass Size Six Number =  133.5 X 38.45
+
+Glass Size Seven Number =  132.5 X 38.45
+
+Jali Size Nine Number =  139.5 X 47.05

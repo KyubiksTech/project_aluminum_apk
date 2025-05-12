@@ -1,0 +1,135 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../5csscode/style.css" />
+  <title>Amrit Aluminum App</title>
+</head>
+
+<body>
+
+  <header id="mainHeader">
+    <nav id="mainNav">
+      <a href="../ninetywindow/ninety.html">2 Pannel</a>
+      <a href="../threepannel/threepannel.html">3 Pannel</a>
+      <a href="../fourpannel/fourpannel.html">4 Pannel</a>
+      <a href="../ninetytwopannelven/ninetytwopannelven.html">90s 2 Pannel Vant</a>
+      <a href="../threepannelven/threepannelven.html">3 Pannel Vant</a>  
+      <a href="../../../code/mainmenu.html">Menu</a>
+</header>
+
+<script>
+  // Function to change navbar color on scroll
+  window.onscroll = function() {
+      var navbar = document.getElementById("mainNav");
+      if (window.scrollY > 50) { // Change 50 to adjust when color changes
+          navbar.classList.add("scrolled");
+      } else {
+          navbar.classList.remove("scrolled");
+      }
+  };
+</script>
+  
+  <center>
+    <div>
+  <H1>Four Pannel (mm)</H1>
+  <script src="script.js"></script>
+
+  <label for ="userInput">Hight</label>
+  <input type="number" id = "height">
+  <br> <br>
+
+  <label for ="userInput">Length</label>
+  <input type="number" id = "length">
+  <br>
+
+  <button onclick="runTwoFunction()">Submit</button>
+  <button onclick="refreshPage()">Refresh</button>
+  </div>
+  </center>
+ 
+  <br>
+  
+  <table>
+    <thead>
+        <tr id = "tableColor">
+          <th><p id = "projectTable"></p></th>
+          <th><p id = "heightName"></p></th>
+          <th><p id = "lengthName"></p></th> 
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td><p id = "projectName"></p></td>
+          <td><p id="Height"></p></td>
+          <td><p id="Length"></p></td>
+          
+      </tr>
+  </tbody>
+    <thead>
+        <tr id = tableColor>
+            <th><p id="tableSn"><p></th>
+            <th><p id="tableName"><p></th>
+            <th><p id="tableSize"><p></th>
+        </tr>
+    </thead>
+
+  
+    <tbody> 
+
+        <tr>
+          <td><p id="oneNumSn"></p></td>
+          <td><p id="oneNumName"></p></td>
+          <td><p id="oneNum"></p></td>
+        </tr>
+
+        <tr>
+          <td><p id="sixSevenInSn"></p></td>
+          <td><p id="sixSevenInName"></p></td>
+          <td><p id="sixSevenIn"></p></td>
+        </tr>
+
+        <tr>
+          <td><p id="sixSevenOutSn"></p></td>
+          <td><p id="sixSevenOutName"></p></td>
+          <td><p id="sixSevenOut"></p></td>
+        </tr>
+
+
+        <tr>
+          <td><p id="fiveNumberSn"></p></td>
+          <td><p id="fiveNumberName"></p></td>
+          <td><p id="fiveNumber"></p></td>
+        </tr>
+
+
+        <tr>
+          <td><p id="glassInSn"></p></td>
+          <td><p id="glassInName"></p></td>
+          <td><p id="glassIn"></p></td>
+        </tr>
+
+        <tr>
+          <td><p id="glassOutSn"></p></td>
+          <td><p id="glassOutName"></p></td>
+          <td><p id="glassOut"></p></td>
+        </tr>
+
+        <tr>
+          <td><p id="jaliSn"></p></td>
+          <td><p id="jaliName"></p></td>
+          <td><p id="jali"></p></td>
+        </tr>
+
+
+    </tbody>
+</table>
+<button onclick="copyFile()">Copy Data</button>
+  </body>
+</html>
