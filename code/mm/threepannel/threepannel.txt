@@ -1,0 +1,21 @@
+
+
+Height: 147
+Breadth: 182
+
+One-Two Number =  178.2
+
+Seven-Six In  =  141.0
+Six-Seven Out =  142.0
+
+Five Number =  52.5
+
+Center Size =  59.4
+
+Glass Size Six Number =  133.5 X 52.2
+
+Glass Size Seven Number =  132.5 X 52.2
+
+Glass Center Size =  50.9 X 59.1
+
+Jali Size Nine Number =  139.5 X 60.8
