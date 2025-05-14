@@ -76,13 +76,13 @@ function getUserInput(){
 
     //glassIn & glassOut
     glassIn = sixSevenIn - 8.5;
-    glassInHeight = fiveFour - 3;
+    glassInHeight = fiveFour - 0.3;
     document.getElementById("glassInSn").innerHTML = "6";
     document.getElementById("glassInName").innerHTML = "Glass In";
     document.getElementById("glassIn").innerHTML = glassIn + " x " + glassInHeight;
     
     glassOut = sixSevenOut - 8.5;
-    glassOutHeight =  fiveFour - 3; 
+    glassOutHeight =  fiveFour - 0.3; 
     document.getElementById("glassOutSn").innerHTML = "7";
     document.getElementById("glassOutName").innerHTML = "Glass Out";
     document.getElementById("glassOut").innerHTML = glassOut + " x " + glassOutHeight;
